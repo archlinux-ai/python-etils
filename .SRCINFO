@@ -1,7 +1,7 @@
 pkgbase = python-etils
 	pkgdesc = Collection of eclectic utils for python
 	pkgver = 1.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/google/etils
 	arch = any
 	license = Apache
@@ -10,7 +10,7 @@ pkgbase = python-etils
 	checkdepends = python-pytest
 	checkdepends = python-pytest-subtests
 	checkdepends = python-pytest-xdist
-	checkdepends = python-torch
+	checkdepends = python-pytorch
 	makedepends = python-build
 	makedepends = python-flit-core
 	makedepends = python-installer

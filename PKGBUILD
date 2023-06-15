@@ -5,7 +5,7 @@
 pkgname=python-etils
 _pkg="${pkgname#python-}"
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Collection of eclectic utils for python'
 url='https://github.com/google/etils'
 license=('Apache')
@@ -20,7 +20,7 @@ checkdepends=(
   'python-pytest'
   'python-pytest-subtests'
   'python-pytest-xdist'
-  'python-torch'
+  'python-pytorch'
 )
 # See https://github.com/google/etils/blob/main/pyproject.toml for optional
 # dependencies
