@@ -4,7 +4,7 @@
 
 pkgname=python-etils
 _pkgname="${pkgname#python-}"
-pkgver=1.3.0
+pkgver=1.4.0
 pkgrel=1
 pkgdesc='Collection of eclectic utils for python'
 url='https://github.com/google/etils'
@@ -40,7 +40,7 @@ optdepends=(
   'python-zipp: for etils.epath'
 )
 source=("$pkgname-$pkgver.tar.gz::https://github.com/google/${_pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('9316f84d6d94716ce4260f02d812dadc36ea9e5a1b2ff4ab542b9069b547904a')
+sha256sums=('4df36c9088727ce29aff0ad80138bad696d9f4e68d4486ee1344cfc929bd84cf')
 
 build() {
 	python -m build -nw $_pkgname-$pkgver
